@@ -1,0 +1,4 @@
+*.class
+*.dex
+bin
+gen

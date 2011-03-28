@@ -1,0 +1,26 @@
+Introduction
+------------
+Appirater for Android is a library that you can add to any Android app that will help remind your users
+to review your app on the Android Market. 
+
+Getting Started
+---------------
+1. Copy appirater.jar into your project's libs folder
+2. Select Project -> Properties -> Java Build Path -> Libraries -> Add JARs -> Add appirater.jar
+3. In your root Activity extend 'com.zemariamm.appirater.AppiraterBase'
+4. In your AndroidManifest.xml add the following between <application> and </application>: ' <meta-data android:name="appirater" android:value="8" /> '
+
+Optional
+---------------
+1. There a couple of ways to customize Appirater behaviour, you can track the people that click on 'Rate', 'Remind me Later' or 'Never Rate', to do that you just have to override the following Appirater' methods:
+- void processNever(void)
+- void processRate(void)
+- void processRemindMe(void)
+
+
+2. If you feel that there should be other conditions to fire up Appirater you can easily add them without having to dig on Appirater's source code. To do so, just override:
+- boolean shoulAppiraterdRun(void) 
+
+Thanks!
+
+[zemariamm]: http://about.me/zemariamm
