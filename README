@@ -12,7 +12,7 @@ Getting Started
 
 Optional
 ---------------
-1. There a couple of ways to customize Appirater behaviour, you can track the people that click on 'Rate', 'Remind me Later' or 'Never Rate', to do that you just have to override the following Appirater' methods:
+1. There are a couple of ways to customize Appirater behaviour, e.g. you can track the people that click on 'Rate', 'Remind me Later' or 'Never Rate', to do so you just have to override the following Appirater' methods:
 - void processNever(void)
 - void processRate(void)
 - void processRemindMe(void)
