@@ -2,4 +2,6 @@
 <resources>
     <string name="hello">Hello World!</string>
     <string name="app_name">AppiraterDroid</string>
+    <string name="appirate_utils_message_before_appname"> If you enjoy using </string>
+    <string name="appirate_utils_message_after_appname">, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support! </string>
 </resources>
