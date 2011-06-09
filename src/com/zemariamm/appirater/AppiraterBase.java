@@ -12,7 +12,7 @@ public class AppiraterBase extends Activity {
 		checkAppirater();
 	}
 	
-	protected boolean shoulAppiraterdRun() {
+	protected boolean shouldAppiraterRun() {
 		return true;
 	}
 	
@@ -29,7 +29,7 @@ public class AppiraterBase extends Activity {
 	}
 	
 	protected void checkAppirater() {
-		if ( AppirateUtils.shouldAppirater(this) && this.shoulAppiraterdRun())
+		if (AppirateUtils.shouldAppirater(this) && this.shouldAppiraterRun())
 		{
 			AppirateUtils.appiraterDialog(this,this);
 		}
