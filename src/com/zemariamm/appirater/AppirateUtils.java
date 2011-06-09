@@ -95,7 +95,7 @@ public class AppirateUtils {
 		}
 		Log.d("Appirater","PackageName: " + packageName);
 		final String marketLink = "market://details?id=" + packageName;
-		String title = "If you enjoy using " + appName + ", would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!";
+		String title = context.getString(R.string.appirate_utils_message_before_appname) + appName + context.getString(R.string.appirate_utils_message_after_appname);
 		builderInvite.setMessage(title);
 		builderInvite.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
 			public void onClick(DialogInterface dialog, int id) {
